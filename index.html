@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Flashcard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://github.com/alura-cursos/flashcard/raw/refs/heads/aula_10/assets/img/bg-desktop.webp');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Responsividade */
+        @media (max-width: 1200px) {
+            body {
+                background-image: url('https://github.com/alura-cursos/flashcard/raw/refs/heads/aula_10/assets/img/bg-tablet.webp');
+            }
+        }
+
+        @media (max-width: 767px) {
+            body {
+                background-image: url('https://github.com/alura-cursos/flashcard/raw/refs/heads/aula_10/assets/img/bg-mobile.webp');
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="container">
+            <!-- Conteúdo do Flashcard -->
+        </section>
+    </main>
+    <footer>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
+    </footer>
+    <script src="app.js"></script>
+    <script src="perguntas.js"></script>
+</body>
+</html>
